@@ -36,7 +36,7 @@ function positiveSum(arr) {
 ```
 
 ## Experience:
-* [MERN Stack Front To Back: Full Stack React, Redux & Node.js](https://www.udemy.com/course/mern-stack-front-to-back/) Course by Udemy<br>
+* [MERN Stack Front To Back: Full Stack React, Redux & Node.js](https://www.udemy.com/course/mern-stack-front-to-back/) by Udemy<br>
 >Build and deploy a social network with Node.js, Express, React, Redux & MongoDB.
 
 * [Study web site project](https://github.com/fogarea/sts)
