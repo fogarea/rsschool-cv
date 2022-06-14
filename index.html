@@ -1,1 +1,200 @@
-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./assets/img/icons/favicon.ico">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konstantin Smirnov</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-container _container">
+                <nav class="header-navigation navigation">
+                    <ul class="navigation-list">
+                        <li class="navigation-item">
+                            <a href="#about" class="navigation-link">About</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#experience" class="navigation-link">Experience</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#education" class="navigation-link">Education</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#code" class="navigation-link">Code</a>
+                        </li>
+                        <li class="navigation-item">
+                            <a href="#skills" class="navigation-link">Skills</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="content">
+            <div class="about">
+                <div class="_container">
+                    <div class="about__row">
+                        <div class="about__image">
+                            <img src="./assets/img/avatar.png" alt="avatar">
+                       </div>
+                        <div class="about__body">
+                            <h3 class="about__sub-title">Trainee Frontend Developer</h3>
+                            <h1 class="about__title">Konstantin Smirnov</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="itroduction" id="about">
+                <div class="_container">
+                    <div class="itroduction__columns">
+                        <div class="itroduction__about-me about-me">
+                            <div class="about-me__body">
+                                <h2 class="about-me__title title">About me</h2>
+                                <p class="about-me__text text">I am a student at RSSchool, 22 y.o., from Moscow. <br>
+                                    My goals is to learn frontend development stuff <br> and integrate into the coders team.</p>
+                            </div>
+                        </div>
+                        <div class="itroduction__contacts contacts">
+                            <div class="contacts__body">
+                                <h2 class="contacts__title title">Contacts</h2>
+                                <ul class="contacts__list text">
+                                    <li class="contacts__list-item">E-mail: shiitakedd@gmail.com</li>
+                                    <li class="contacts__list-item">Discord: fogarea#7518</li>
+                                    <li class="contacts__list-item">Phone: +7 913 456-76-88</li>
+                                    <li class="contacts__list-item">Telegram: @fogarea</li>
+                                </ul>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="experience" id="experience">
+                <div class="_container">
+                    <div class="experience__columns">
+                        <div class="experience__title title">Experience</div>
+                        <div class="experience__rows">
+                            <div class="experience__rows-item item">
+                                <div class="item__row">
+                                    <div class="item__body">
+                                        <h3 class="item__title">
+                                            <a href="https://github.com/fogarea/sts">Study web site project</a>
+                                        </h3>
+                                        <p class="item__text text">A simple web site (HTML, CSS, JS)</p>
+                                    </div>
+                                    <div class="item__year year">2020</div>
+                                </div>
+                                <div class="item__row">
+                                    <div class="item__body">
+                                        <h3 class="item__title">
+                                            <a href="https://www.udemy.com/course/mern-stack-front-to-back/">Stack Front To Back: Full Stack React, Redux & Node.js by Udemy</a>
+                                        </h3>
+                                        <p class="item__text text">Build and deploy a social network with Node.js, Express, React, Redux & MongoDB.</p>
+                                    </div>
+                                    <div class="item__year year">2022</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="education" id="education">
+                <div class="_container">
+                    <div class="education__rows">
+                        <div class="education__rows-title title">Education</div>
+                        <div class="education__rows-item item">
+                            <div class="item__row">
+                                <div class="item__body">
+                                    <h3 class="item__title">Siberian Federal University</h3>
+                                    <p class="item__text text">Baccalaureate with School of Space and Information Technology, GPA 4.0</p>
+                                </div>
+                                <div class="item__year year">2018 - 2022</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="code" id="code">
+                <div class="_container">
+                    <div class="code__columns">
+                        <div class="code__desc desc">
+                            <div class="desc__body">
+                                <h2 class="desc__title title">Code Example</h2>
+                                <div class="desc__subtitle">Sum of positive task from CODEWARS
+                                </div>
+                                <p class="desc__text text">You get an array of numbers,<br> return the sum of all of the positives ones.</p>
+                            </div>
+                        </div>
+                        <div class="code__example example">
+                            <pre>
+                                <code>function positiveSum(arr) {
+  let sumPositive = 0;
+  for(let i = 0; i &lt;= arr.length; i++){
+    if(arr[i] > 0){
+      sumPositive += arr[i];
+    }
+  }
+  return sumPositive;
+}
+</code>
+                              </pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills" id="skills">
+                <div class="_container">
+                    <div class="skills__columns">
+                        <div class="skills__stack stack">
+                            <div class="stack__body">
+                                <h2 class="stack__title title">Skills</h2>
+                                <div class="stack__lists">
+                                    <ul class="stack__list text">
+                                        <li class="stack__list-item">Git, GitHub</li>
+                                        <li class="stack__list-item">HTML/CSS</li>
+                                    </ul>
+                                    <ul class="stack__list text">
+                                        <li class="stack__list-item">NodeJS</li>
+                                        <li class="stack__list-item">JavaScript</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__lang lang">
+                            <div class="lang__body">
+                                <h2 class="lang__title title">Languages</h2>
+                                <ul class="lang__list text">
+                                    <li class="lang__list-item">English (Intermediate)</li>
+                                    <li class="lang__list-item">Russian (Native)</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="_container">
+                <div class="footer__row">
+                    <div class="footer__github">
+                        <a href="https://github.com/fogarea"><img src="./assets/img/icons/github.svg" alt="github-logo"></a>
+                    </div>
+                    <div class="footer__text">fogarea/2022</div>
+                    <div class="footer__rss-logo">
+                        <a href="https://rs.school/js/"><img src="./assets/img/icons/rs_school_js.svg" alt="rss-logo"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
